@@ -74,9 +74,5 @@ class Beaver:
       print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
      
 
-fred = Fish("Fred", "Goldfish", "Algae")       
-dorian = Duck("Duck", "Crested", "Bread")
-ed = Eel("Ed", "Giant Moray", "Goldfish")
-frank = Frog("Frank", "Tree frog", "Flies")
-ben = Beaver("Ben", "North American", "Mushrooms")
+
 
