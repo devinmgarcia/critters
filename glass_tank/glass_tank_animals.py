@@ -77,3 +77,4 @@ sylvia = Snake("Sylvia", "Python", "Mice")
 tom = Turtle("Tom", "Snapping", "Broccoli")
 sally = Scorpion("Sally", "Emperor", "Lizards")
 terry = Tarantula("Terry", "Mexican Red-Knee", "Grasshoppers")
+
