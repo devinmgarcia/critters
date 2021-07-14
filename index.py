@@ -1,9 +1,6 @@
-from glass_tank import Iguana, Snake, Scorpion, Tarantula, Turtle
-from petting_area import Donkey, Dog, Cat, Llama, Goat
-import petting_area
-from pond import Fish, Duck, Eel, Frog, Beaver
+from animals import Animal, Iguana, Snake, Scorpion, Tarantula, Turtle, Beaver, Cat, Dog, Donkey, Duck, Eel, Fish, Frog, Goat, Llama
 from attractions import SnakePit, PettingZoo, Wetlands
-from animals import Animal
+from movements import Walking, Swimming, Slithering
 
 # iggy = Iguana("Iggy", "Green Iguana", "Crickets", 1176)
 # sylvia = Snake("Sylvia", "Python", "Mice")
@@ -22,6 +19,7 @@ from animals import Animal
 # ed = Eel("Ed", "Giant Moray", "Goldfish")
 # frank = Frog("Frank", "Tree frog", "Flies")
 # ben = Beaver("Ben", "North American", "Mushrooms")
+
 
 
 
