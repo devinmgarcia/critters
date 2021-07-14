@@ -1,77 +1,34 @@
 from datetime import date
+from animals import Animal
 
-class Fish:
-    def __init__(self, name, species, food):
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
+class Fish(Animal):
+    def __init__(self, name, species, shift, food, chip_num):
+        super().__init__(name, species, food, chip_num)  
         self.swimming = True
-        self.food = food
 
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-    
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-
-class Duck:
-    def __init__(self, name, species, food):
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
+class Duck(Animal):
+   def __init__(self, name, species, shift, food, chip_num):
+        super().__init__(name, species, food, chip_num)  
         self.swimming = True
         self.walking = True
-        self.food = food
-
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
      
-class Eel:
-    def __init__(self, name, species, food):
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
+class Eel(Animal):
+    def __init__(self, name, species, shift, food, chip_num):
+        super().__init__(name, species, food, chip_num)  
         self.swimming = True
         self.slithering = True
-        self.food = food
-
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
      
-class Frog:
-    def __init__(self, name, species, food):
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
+class Frog(Animal):
+    def __init__(self, name, species, shift, food, chip_num):
+        super().__init__(name, species, food, chip_num)  
         self.swimming = True
-        self.food = food
-
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
       
-class Beaver:
-    def __init__(self, name, species, food):
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
+class Beaver(Animal):
+    def __init__(self, name, species, shift, food, chip_num):
+        super().__init__(name, species, food, chip_num)  
         self.swimming = True
         self.walking = True
-        self.food = food
-
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+    
      
 
 
