@@ -5,8 +5,8 @@ class Attraction:
         self.description = description
         self.animals = list()
 
-    def add_animal(self, animal):
-        self.animals.append(animal)
+    # def add_animal(self, animal):
+    #     self.animals.append(animal)
 
     def remove_animal(self, animal):
         self.animals.remove(animal)

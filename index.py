@@ -2,7 +2,7 @@ from animals import Animal, Iguana, Snake, Scorpion, Tarantula, Turtle, Beaver, 
 from attractions import SnakePit, PettingZoo, Wetlands, Attraction
 
 # iggy = Iguana("Iggy", "Green Iguana", "Crickets", 1176)
-# sylvia = Snake("Sylvia", "Python", "Mice")
+# sylvia = Snake("Sylvia", "Python", "Mice", 5959)
 # tom = Turtle("Tom", "Snapping", "Broccoli")
 # sally = Scorpion("Sally", "Emperor", "Lizards")
 # terry = Tarantula("Terry", "Mexican Red-Knee", "Grasshoppers")
@@ -13,7 +13,7 @@ from attractions import SnakePit, PettingZoo, Wetlands, Attraction
 # larry = Llama("Larry", "Llama", "Evening", "Grass", 5252)
 # george = Goat("George", "Mountain", "Evening", "Grass")
 
-# fred = Fish("Fred", "Goldfish", "Algae")       
+# fred = Fish("Fred", "Goldfish", "Algae", 1515)       
 # dorian = Duck("Duck", "Crested", "Bread")
 # ed = Eel("Ed", "Giant Moray", "Goldfish")
 # frank = Frog("Frank", "Tree frog", "Flies")
