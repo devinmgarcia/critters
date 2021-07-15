@@ -1,6 +1,5 @@
 from animals import Animal, Iguana, Snake, Scorpion, Tarantula, Turtle, Beaver, Cat, Dog, Donkey, Duck, Eel, Fish, Frog, Goat, Llama
-from attractions import SnakePit, PettingZoo, Wetlands
-from movements import Walking, Swimming, Slithering
+from attractions import SnakePit, PettingZoo, Wetlands, Attraction
 
 # iggy = Iguana("Iggy", "Green Iguana", "Crickets", 1176)
 # sylvia = Snake("Sylvia", "Python", "Mice")
@@ -19,6 +18,7 @@ from movements import Walking, Swimming, Slithering
 # ed = Eel("Ed", "Giant Moray", "Goldfish")
 # frank = Frog("Frank", "Tree frog", "Flies")
 # ben = Beaver("Ben", "North American", "Mushrooms")
+
 
 
 
